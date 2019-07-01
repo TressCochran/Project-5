@@ -1,0 +1,64 @@
+
+
+public interface DLinkedListInterface<T> {
+    
+    /**
+     * returns the size of the Linked List 
+     */
+    public int size();
+    
+    /**
+     * adds an Object of Type T to the Linked List
+     * 
+     * @param newLink -- the object to be added onto 
+     * the linked list
+     */
+    public void add(T newLink);
+    
+    /**
+     * Method to tell if the linkedlist is empty or 
+     * if it has elements in it
+     * 
+     */
+    public boolean isEmpty();
+    
+    /**
+     * method to remove an element from the linked List
+     * 
+     * @param T -- the object to be removed
+     * 
+     * @return T -- the object removed
+     */
+    public T remove(T obj);
+    
+    /**
+     * will get the location of the object in the list 
+     */
+    
+    public int get(T obj);
+    
+    /**
+     * will get the Obj based of it integer location
+     */
+    public T get(int i);
+    
+    /**
+     * will see if the list contains the given element 
+     */
+    public boolean contains(T entry);
+    
+    /**
+     * will clear the linked list 
+     */
+    public void clear();
+    
+    /**
+     * will put the list into a String
+     */
+    public String toString();
+    
+    
+    
+    
+
+}
